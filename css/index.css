@@ -1,0 +1,245 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+  }
+  /*
+    3. Allow percentage-based heights in the application
+  */
+  html, body {
+    height: 100%;
+  }
+  /*
+    Typographic tweaks!
+    4. Add accessible line-height
+    5. Improve text rendering
+  */
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  /*
+    6. Improve media defaults
+  */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  /*
+    7. Remove built-in form typography styles
+  */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  /*
+    8. Avoid text overflows
+  */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    letter-spacing: 0.5px;
+    color: #05360A;
+  }
+  /*
+    9. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 52px;
+  }
+
+  .left-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  } 
+
+  .logo {
+    margin-right: 32px;
+  } 
+  
+  .right-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .links {
+    margin-right: 105px;
+  }
+
+  button {
+    padding: 13px 19px;
+    background: #CE0CB2;
+    border-radius: 50px;
+    margin-right: 52px;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    padding: 69px
+  }
+
+  .hero-title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 94px;
+    /* or 98% */
+    letter-spacing: 0.5px;
+    color: #08092E;
+    width: 522px;
+  }
+
+  .hero-body {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 19px;
+    line-height: 23px;
+    /* identical to box height */
+
+    letter-spacing: 0.5px;
+    margin-top: 45px;
+
+    color: #C00CA6;
+  }
+
+
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero-image {
+    border-radius: 50%;
+  }
+
+  .my-work {
+    padding: 102px 230px;
+    height: 423px;
+    background: linear-gradient(95.21deg, rgba(22, 156, 197, 0.34) 0.98%, rgba(86, 208, 235, 0.41) 18.74%, rgba(106, 255, 15, 0.59) 40.14%, rgba(239, 114, 22, 0.64) 59.58%, rgba(228, 38, 201, 0.98) 79.24%, #169CC5 104.85%);
+    padding: 102px 230px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .my-work-text {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #FFFFFF;
+  }
+
+  .my-work-heading {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    /* or 117% */
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+  }
+
+  hr {
+    border: 1px solid #FFFFFF;
+    margin: 25px 0;
+    width: 200px;
+  }
+
+  .recent-projects {
+    padding: 0 234px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 63px;
+    /* identical to box height, or 98% */
+
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin-top: 169px;
+
+    color: #05360A;
+  }
+
+  .see-more {
+    background: #CE0CB2;
+    border-radius: 50px;
+    margin-top: 55px;
+    margin-bottom: 128px;
+  }
+
+  .recent-project-header {
+    text-align: left;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 63px;
+    /* identical to box height, or 140% */
+
+    text-align: left;
+    letter-spacing: 0.5px;
+
+    color: #05360A;
+  }
+
+  .recent-project-text {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 63px;
+    /* or 210% */
+
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #000000;
+  }
+
+
+.recent-project-study {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 63px;
+    /* or 210% */
+
+    letter-spacing: 0.5px;
+    text-align: left;
+    color:  #CE0CB2;
+}
+
+
+
+
+
